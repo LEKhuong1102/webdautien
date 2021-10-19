@@ -1,0 +1,93 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0, aquamarine, rgb(61, 128, 105));
+    margin: 0;
+}
+@keyframes doimau {
+    0%{
+        background-color: cyan;
+    }
+    25%{
+        background-color: darkcyan;
+    }
+    50%{
+        background-color: orange;
+    }
+    75%{
+        background-color: teal;
+    }
+    100%{
+        background-color: midnightblue;
+    }
+}
+.football{
+    list-style: none;
+    display: flex;
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+}
+.football ul li a{
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}
+.football li{
+    padding: 40px;
+    justify-content: center;
+}
+.name{
+    background-color: rgb(80, 212, 212);
+    padding: 15px;
+    text-align: center;
+}
+.name a{
+    padding: 5px 25px 5px 25px;
+    border-right: 1px solid rgb(61, 56, 56);
+    color:rgb(1, 57, 240);
+} 
+.name a:hover{
+    background-color: rgb(30, 255, 0);
+    cursor: pointer;
+    transition: 1s;
+    animation: doimau 5s infinite;
+}
+
+.top3{
+     color: rgba(39, 38, 38, 0.952); 
+     font-family:'Courier New', Courier, monospace ; 
+     font-size: 28px; padding: 10px; border-width: 2px; 
+     border-bottom: 2px solid #fff;
+     margin: 0px 0px 0px 80px;
+     text-align: center;
+    
+}
+.football div{
+    border: 0;
+    right: 10%;
+    height: 100%;
+   
+}
+.football h4{
+    color: rgba(39, 38, 38, 0.952); 
+     font-family:'Courier New', Courier, monospace ; 
+     text-align: center;
+     font-size: 28px; padding: 0px; border-width: 2px; 
+     padding-left: 10px;
+     margin: 0;
+}
+.football img{
+    width: 110px;
+    padding-left: 40px;
+}
+
+.containerMU{
+    margin: 20px;
+    color: rgb(255, 0, 21);
+}
+.lst-article h2{
+    border-bottom: 4px solid #fff;
+    width: 500px;
+}
